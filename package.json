@@ -1,7 +1,7 @@
 {
-  "name": "desktophotkeys",
+  "name": "desktopshortcuts",
   "version": "1.4.3",
-  "description": "This package provides press/release callbacks for system-wide hotkeys on Windows",
+  "description": "This package provides press/release callbacks for system-wide hotkeys on Windows and Mac",
   "main": "index.js",
   "gypfile": true,
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/EugeneP-Zello/desktophotkeys.git"
   },
   "keywords": [
-    "GlobalHotkey"
+    "Shortcuts"
   ],
   "author": "Zello Inc",
   "publishConfig": {
@@ -24,9 +24,9 @@
     "url": "https://github.com/EugeneP-Zello/desktophotkeys/issues"
   },
   "binary": {
-    "module_name": "desktophotkeys",
+    "module_name": "desktopshortcuts",
     "module_path": "./lib/binding/napi-v{napi_build_version}-{platform}-{arch}",
-    "host": "https://github.com/EugeneP-Zello/desktophotkeys/releases/download/",
+    "host": "https://github.com/EugeneP-Zello/desktopshortcuts/releases/download/",
     "remote_path": "{version}",
     "package_name": "napi-v{napi_build_version}-{platform}-{arch}.tar.gz",
     "napi_versions": [
